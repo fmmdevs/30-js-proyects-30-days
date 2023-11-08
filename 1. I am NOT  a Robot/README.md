@@ -33,6 +33,7 @@ This project serves as a simple example of captcha verification using HTML, CSS,
 This project is open source and is distributed under the Apache License 2.0. You are welcome to use, modify, and distribute this project as per your requirements.
 
 ---
+
 # I am Not a Robot Verification Project
 
 Este es un proyecto de verificación simple que te desafía a seleccionar el color hexadecimal correcto para demostrar que eres un humano y no un robot.
@@ -69,3 +70,6 @@ Este proyecto es de código abierto y se distribuye bajo la licencia Apache Lice
 
 ---
 
+# Demo
+
+![Demo](I am not a robot.gif)
