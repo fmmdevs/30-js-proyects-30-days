@@ -72,4 +72,4 @@ Este proyecto es de código abierto y se distribuye bajo la licencia Apache Lice
 
 # Demo
 
-![Demo](I am not a robot.gif)
+![Demo](demo.gif)
