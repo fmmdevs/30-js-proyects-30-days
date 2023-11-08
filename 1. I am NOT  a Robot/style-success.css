@@ -2,4 +2,6 @@ body {
   text-align: center;
   font-size: 5rem;
   text-transform: uppercase;
+  background-color: #333;
+  color: orange;
 }
