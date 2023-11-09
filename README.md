@@ -6,9 +6,9 @@ From https://www.udemy.com/course/30-html-css-javascript-projects-in-30-days-for
 
 [I am NOT a Robot (Beginner project)](https://github.com/fmmdevs/30-js-proyects-30-days/tree/main/1.%20I%20am%20NOT%20%20a%20Robot)
 
-[Stopwatch-Lap timer] (https://github.com/fmmdevs/30-js-proyects-30-days/tree/main/2.%20Stopwatch-Lap%20timer)
+[Stopwatch-Lap timer](https://github.com/fmmdevs/30-js-proyects-30-days/tree/main/2.%20Stopwatch-Lap%20timer)
 
-[Expandable Search] (https://github.com/fmmdevs/30-js-proyects-30-days/tree/main/3.%20Expandable%20Search)
+[Expandable Search](https://github.com/fmmdevs/30-js-proyects-30-days/tree/main/3.%20Expandable%20Search)
 
 Digital Clock with interchangeable background img and focus section
 
