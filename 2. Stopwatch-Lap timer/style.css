@@ -31,10 +31,15 @@ body {
   align-items: center;
 }
 
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+}
+
 #container {
   width: 640px;
   height: 960px;
-  margin: 10px auto;
+  margin: 120px auto;
   background: url("./assets/img/edgar-chaparro-sHfo3WOgGTU-unsplash.jpg");
   padding-top: 150px;
   z-index: 1;
@@ -53,6 +58,7 @@ body {
     0.1
   ); /* Ajusta el color y la opacidad según tus necesidades */
   z-index: 2;
+  pointer-events: none;
 }
 
 #timer {
@@ -71,11 +77,18 @@ body {
   font-size: 25px;
 }
 
+.buttons {
+  width: 450px;
+}
 button {
-  border-radius: 100%;
   padding: 20px;
   margin-top: 2rem;
   font-weight: 700;
+}
+
+.btn-grande {
+  width: 130px;
+  height: 130px;
 }
 
 .btn:active {
@@ -96,10 +109,12 @@ button {
   border-radius: var(--border-radios);
 }
 
+/* Selector: Elementos li impares dentro de la clase laps-container */
 .laps-container li:nth-child(odd) {
   background-color: var(--bg-c);
   color: black;
 }
 
-.laps-container li:nth-child(even) {
+li p {
+  display: inline;
 }

@@ -9,6 +9,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="laps.js" defer></script>
   </head>
   <body>
     <main class="flex-col" id="container">
@@ -22,16 +23,13 @@
         </p>
       </div>
       <div class="buttons flex-row">
-        <button id="start-btn" class="btn green btn-large">START</button>
-        <button id="stop-btn" class="btn red btn-large">STOP</button>
-        <button id="reset-btn" class="btn btn-large">RESET</button>
+        <button id="start-btn" class="btn-floating green btn-grande">
+          START/LAP
+        </button>
+        <button id="stop-btn" class="btn-floating red btn-grande">STOP</button>
+        <button id="reset-btn" class="btn-floating btn-grande">RESET</button>
       </div>
-      <ul id="laps-container" class="laps-container">
-        <li>00:00</li>
-        <li>00:00</li>
-        <li>00:00</li>
-        <li>00:00</li>
-      </ul>
+      <ul id="laps-container" class="laps-container"></ul>
     </main>
   </body>
 </html>
