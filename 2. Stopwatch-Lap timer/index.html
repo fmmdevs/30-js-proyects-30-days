@@ -4,23 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Stopwatch Lap Timer</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container flex-col">
+    <main class="flex-col" id="container">
+      <div class="overlay"></div>
       <h1>STOPWATCH</h1>
       <h1>LAP TIMER</h1>
       <div id="timer">
         <p>
           <span id="timer-minutes">00</span>:<span id="timer-seconds">00</span
-          >,<span id="timer-decimal">00</span>
+          >,<span id="timer-tens">00</span>
         </p>
       </div>
       <div class="buttons flex-row">
-        <button>START</button>
-        <button>STOP</button>
-        <button>RESET</button>
+        <button id="start-btn" class="btn green btn-large">START</button>
+        <button id="stop-btn" class="btn red btn-large">STOP</button>
+        <button id="reset-btn" class="btn btn-large">RESET</button>
       </div>
-    </div>
+      <ul id="laps-container" class="laps-container">
+        <li>00:00</li>
+        <li>00:00</li>
+        <li>00:00</li>
+        <li>00:00</li>
+      </ul>
+    </main>
   </body>
 </html>
