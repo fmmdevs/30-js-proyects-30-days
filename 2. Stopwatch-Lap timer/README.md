@@ -53,3 +53,7 @@ Este es un cronómetro simple con funcionalidad de contar vueltas. El cronómetr
 ### Créditos
 
 - Foto de [Edgar Chaparro](https://unsplash.com/es/@echaparro?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) en [Unsplash](https://unsplash.com/es/fotos/foto-en-escala-de-grises-del-hombre-trabajando-sHfo3WOgGTU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash).
+
+### Demo
+
+![Demo](./assets/img/demo.gif)

@@ -21,3 +21,7 @@ This project consists of an expandable search bar that expands upon clicking a b
 ## Styles and Design
 
 The CSS file provides attractive and responsive styles for the search bar and other interface elements. Pleasant colors and smooth transitions have been utilized to enhance the overall appearance.
+
+## Demo
+
+![Demo](./assets/demo.gif)
