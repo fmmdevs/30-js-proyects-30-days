@@ -23,6 +23,10 @@ This is a simple stopwatch with lap counting functionality. The stopwatch allows
 - Click the "Stop" button to pause the stopwatch. Press "Start" to register a lap and resume the stopwatch.
 - Click the "Reset" button to reset the lap counter and restart the stopwatch.
 
+### Credits
+
+- Photo by [Edgar Chaparro](https://unsplash.com/es/@echaparro?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/es/fotos/foto-en-escala-de-grises-del-hombre-trabajando-sHfo3WOgGTU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash).
+
 ## Español
 
 ### Descripción
@@ -46,6 +50,6 @@ Este es un cronómetro simple con funcionalidad de contar vueltas. El cronómetr
 - Haz clic en el botón "Stop" para pausar el cronómetro. Presiona "Start" para registrar una vuelta y continuar el cronómetro.
 - Haz clic en el botón "Reset" para reiniciar el contador de vueltas y reiniciar el cronómetro.
 
-# Demo
+### Créditos
 
-![Demo](./assets/img/demo.gif)
+- Foto de [Edgar Chaparro](https://unsplash.com/es/@echaparro?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) en [Unsplash](https://unsplash.com/es/fotos/foto-en-escala-de-grises-del-hombre-trabajando-sHfo3WOgGTU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash).
