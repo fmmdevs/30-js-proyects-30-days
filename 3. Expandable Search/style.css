@@ -1,0 +1,101 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #93a8ac;
+  color: #0c0910;
+}
+
+nav {
+  height: 60px;
+  background-color: #ec9a29;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  height: 100vh;
+}
+
+p {
+  padding: 1rem;
+}
+
+h1 {
+  margin: 2rem;
+  text-align: center;
+}
+
+/* Para que no se vea el input type="search". 
+Funciona bien por el box-sizing, margin y padding 0 del principio */
+input {
+  width: 0px;
+  border: none;
+  outline: none;
+}
+
+.fas {
+  font-size: 1.3rem;
+  padding: 10px 5px;
+}
+
+.fas:hover {
+  cursor: pointer;
+  color: #2a6041;
+}
+
+/* Ahora mismo no hay ningún input que tenga como clase active-search.
+Lo que vamos a hacer es que cuando hagamos click, añadiremos al input esta clase.
+*/
+input.active-search {
+  width: 80px;
+  border-radius: 12px;
+  border: 1px solid gray;
+  padding: 10px 5px;
+
+  /* transicion */
+  transition: 0.3s width ease-in;
+
+  font-size: 16px;
+  box-shadow: 0 1px 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+input.active-search:hover {
+  width: 120px;
+  border-radius: 12px;
+  border: 1px solid gray;
+  padding: 10px 5px;
+
+  /* transicion */
+  transition: 0.3s width ease-in;
+
+  font-size: 16px;
+  box-shadow: 0 1px 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+input.active-search:focus {
+  width: 340px;
+  border-radius: 12px;
+  border: 1px solid gray;
+  padding: 10px 5px;
+
+  /* transicion */
+  transition: 0.3s width ease-in;
+
+  font-size: 16px;
+  box-shadow: 0 1px 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+input.search-input {
+  transition: 0.8s width ease-in;
+  width: 0px;
+  border: none;
+  outline: none;
+}
