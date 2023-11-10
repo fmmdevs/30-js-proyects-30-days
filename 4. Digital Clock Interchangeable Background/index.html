@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="clock.js" defer></script>
+  </head>
+  <body>
+    <div class="container flex-col">
+      <h1 id="time"><span id="am-pm"></span></h1>
+      <p>Good morning, Francisco<span id="msg"></span></p>
+      <div class="focus-container">
+        <form class="flex-col">
+          <label for="focus-input">What is your focus?</label>
+          <input type="text" id="focus-input" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
