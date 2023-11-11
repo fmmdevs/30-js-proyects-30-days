@@ -1,0 +1,126 @@
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: xx-large;
+  text-align: center;
+  height: 100vh;
+  background-color: rgba(136, 20, 55, 1);
+  color: white;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container {
+  width: 90%;
+  height: 85vh;
+  margin: 30px auto;
+}
+
+h1 {
+  margin: 150px;
+  font-size: 60px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 1000;
+}
+i:hover {
+  cursor: pointer;
+  z-index: 3;
+}
+
+ul {
+  list-style: none;
+  display: none;
+}
+
+.nav-container .logo {
+  /* transition delay */
+}
+
+.main-nav-list a {
+  display: block;
+  color: #333;
+  font-size: 2;
+  letter-spacing: 2px;
+  margin-top: 1.3rem;
+  text-align: center;
+}
+
+.menu-toggle div {
+  background-color: #ccc;
+  border-radius: 25px;
+  box-shadow: 0px 3px 13px rgba(0, 0, 0, 0, 0.3);
+  height: 7px;
+  transition-duration: 0.25s;
+  transition-timing-function: cubic-bezier(0.13, 0.25, 0.3);
+}
+
+.main-nav-list::before,
+.main-nav-list::after {
+  content: "";
+  background-color: #222;
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 0vh;
+  transition: all 0.1s ease-in-out 0.3s;
+}
+
+.main-nav-list::before {
+  left: 0;
+}
+.main-nav-list::after {
+  right: 0;
+}
+
+.main-nav-list ul {
+  position: absolute;
+  top: -30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  z-index: 2;
+}
+
+.nav-container.active h1 {
+  text-shadow: 0 3px 3px rgba(0, 0, 0, 0, 0.3);
+}
+
+.main-nav-list.active::after {
+  width: 25vw;
+}
+
+.main-nav-list.active ul {
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.3s cubic-bezier(0.1, 0.2, 0.3, 1.4), 0.55s;
+}
+
+.main-nav-list a {
+  opacity: 1;
+  color: #ddd;
+}
+
+main-nav-list a:hover {
+  text-decoration: underline;
+}
