@@ -12,17 +12,15 @@
     <script src="nav.js" defer></script>
   </head>
   <body>
-    <div class="main-container flex-col">
-      <div id="wrapper">
-        <header>
-          <nav>
-            <div class="nav-container active-element flex-row">
-              <h3 class="logo"><a href="#">LOGO</a></h3>
-              <div class="menu-toggle active-element" id="menu-toggle">
-                <i class="fa-solid fa-bars"></i>
-              </div>
+    <div class="flex-col wrapper active-element">
+      <header>
+        <nav>
+          <div class="nav-container active-element flex-row">
+            <h3 class="logo"><a href="#">LOGO</a></h3>
+            <div class="menu-toggle active-element" id="menu-toggle">
+              <i class="fa-solid fa-bars"></i>
             </div>
-          </nav>
+          </div>
 
           <div class="main-nav-list active-element">
             <ul>
@@ -33,9 +31,10 @@
               <li><a href="#">Contact</a></li>
             </ul>
           </div>
-        </header>
-      </div>
-      <main>
+        </nav>
+      </header>
+
+      <main class="main-container">
         <h1>NAVIGATE</h1>
         <section>
           <p>
@@ -47,6 +46,6 @@
         </section>
       </main>
     </div>
-    <footer class="active-element">&copy;2030 FMMDEVS</footer>
+    <footer class="main-footer active-element">&copy;2030 FMMDEVS</footer>
   </body>
 </html>
