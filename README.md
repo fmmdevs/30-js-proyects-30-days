@@ -10,9 +10,9 @@ From https://www.udemy.com/course/30-html-css-javascript-projects-in-30-days-for
 
 [Expandable Search](https://github.com/fmmdevs/30-js-proyects-30-days/tree/main/3.%20Expandable%20Search)
 
-Digital Clock with interchangeable background img and focus section
+[Digital Clock with interchangeable background img and focus section](https://github.com/fmmdevs/30-js-proyects-30-days/tree/main/4.%20Digital%20Clock%20Interchangeable%20Background)
 
-Animated Navigation
+[Animated Navigation](https://github.com/fmmdevs/30-js-proyects-30-days/tree/main/5.%20Animated%20Nav)
 
 Simple Typewriter Text Effect
 
